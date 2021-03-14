@@ -89,6 +89,15 @@ body{
     left:7.3rem;
 }
 
+.align__profile{
+    display: flex;
+    height: 9rem;
+}
+.align__profile>.profile{
+    align-items:flex-end;
+    border-bottom: 0px;
+    color:var(--primary-color)
+}
 /* --------------- MAIN  section --------------- */
 .main{
     grid-area: main;
